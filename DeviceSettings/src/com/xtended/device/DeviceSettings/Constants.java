@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package com.aosip.device.DeviceSettings;
+package com.xtended.device.DeviceSettings;
 
 import java.util.HashMap;
 import java.util.Map;

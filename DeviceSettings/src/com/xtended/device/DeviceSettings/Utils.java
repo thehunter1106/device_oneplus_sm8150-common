@@ -15,7 +15,7 @@
 * along with this program. If not, see <http://www.gnu.org/licenses/>.
 *
 */
-package com.aosip.device.DeviceSettings;
+package com.xtended.device.DeviceSettings;
 
 import java.io.File;
 import java.io.FileNotFoundException;
