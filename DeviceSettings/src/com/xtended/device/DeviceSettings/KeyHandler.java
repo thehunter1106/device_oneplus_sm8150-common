@@ -48,6 +48,7 @@ import com.android.internal.os.DeviceKeyHandler;
 import com.android.internal.util.ArrayUtils;
 
 import com.xtended.device.DeviceSettings.Constants;
+import com.android.internal.util.xtended.XtendedUtils;
 
 import vendor.oneplus.camera.CameraHIDL.V1_0.IOnePlusCameraProvider;
 
@@ -107,6 +108,7 @@ public class KeyHandler implements DeviceKeyHandler {
   
     public KeyHandler(Context context) {
         mContext = context;
+		mDispOn = true;
         mPowerManager = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
         mNotificationManager
                 = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
